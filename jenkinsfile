@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
           scripts{  
-          sh 'echo 'executed sucessfully''
+          echo 'executed sucessfully'
             }
             }
         }
