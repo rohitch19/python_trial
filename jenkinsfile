@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo "eflhguiwqhel"
+                script {
+          sh """
+          python trial.py
+          """
+        }
             }
         }
     }
