@@ -1,3 +1,6 @@
 pipeline {
-    python trial2.py 
+     agent any
+     stage {
+    python trial2.py
+    }
 }
