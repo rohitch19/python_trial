@@ -1,6 +1,9 @@
 pipeline {
      agent any
-     stage {
+     stages {
+     stage ("test"){
+     
     python trial2.py
+    }
     }
 }
