@@ -1,9 +1,11 @@
 pipeline {
-     agent any
-     stages {
-     stage ("test"){
-     
-    python trial2.py
-    }
+    agent any
+
+    stages {
+        stage('test') {
+            steps {
+                sh python trial.py
+            }
+        }
     }
 }
