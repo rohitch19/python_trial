@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
             echo "ebtersdfsvgz"
-            echo "${pwd}"
+            echo "${ls}"
             }
         }
     }
