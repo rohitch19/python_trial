@@ -1,2 +1,2 @@
-print "my file two exicuted"
-print "execuitrd"
+print ("my file two exicuted")
+print ("execuitrd")
