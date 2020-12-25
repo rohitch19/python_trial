@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-            
-          echo 'executed sucessfully'
-          sh 'python trial.py'
+            pwd
             }
         }
     }
