@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-          scripts{  
+            
           echo 'executed sucessfully'
-            }
+         
             }
         }
     }
