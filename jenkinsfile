@@ -6,7 +6,6 @@ pipeline {
             steps {
                 echo 'Building..'
                 python trial.py
-                python trial2.py
             }
         }
     }
