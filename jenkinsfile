@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-          sh 'python3 trial2.py'
+          python3 trial2.py
             }
         }
     }
