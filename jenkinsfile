@@ -1,11 +1,9 @@
 pipeline {
     agent any
-
     stages {
         stage('build') {
             steps {
-            echo "ebtersdfsvgz"
-            ls
+                sh 'python --version'
             }
         }
     }
