@@ -2,12 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('test') {
+        stage('build') {
             steps {
                 script {
-          bash """
-          python trial.py
-          """
+          sh "python trial.py"
         }
             }
         }
