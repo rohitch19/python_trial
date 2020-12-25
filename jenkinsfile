@@ -6,7 +6,7 @@ pipeline {
             steps {
             
           echo 'executed sucessfully'
-          python trial.py
+          sh 'python trial.py'
             }
         }
     }
